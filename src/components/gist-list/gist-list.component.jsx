@@ -19,7 +19,6 @@ const GistList = ({ filteredData, currentUser }) => {
   const dispatch = useDispatch()
 
   const pageChange = (pageNo) => {
-   console.log(pageNo)
    setCurrentPage(pageNo)
    dispatch(fetchUserGistStartAsync(pageNo, currentUser.login));
   }
