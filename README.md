@@ -1,6 +1,28 @@
-# Getting Started with Create React App
+# Github Gist App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Github Gist Search Application based on React.
+
+## How to Run
+
+**Client**
+
+- Unzip/Clone the 'github-gist' file
+- Run 'npm install' to download the dependencies
+- Run 'npm start' to start the client application
+
+Client starts at port 3000.
+
+## Assumptions made while developing
+
+- User will be having NPM installed in his local PC
+- User will be using Modern Browsers (Edge(Chromium), Chrome)
+
+## Improvements
+
+- Comments for each Gist can be shown
+- Configurable Pagination properties
+- Better Error Handling when service provider is down.
+- More deeper re-usable component can used in the frontend layer
 
 ## Available Scripts
 
