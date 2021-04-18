@@ -106,6 +106,8 @@ const homeReducer = (state = INITIAL_STATE, action) => {
             filteredList.push(item);
           } else if (action.payload === "All") {
             filteredList.push(item);
+          } else if(file.language === null) {
+            filteredList.push(item);
           }
         });
       });
